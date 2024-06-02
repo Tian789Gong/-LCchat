@@ -51,15 +51,6 @@ OpenAI GPT API 的调用，并将在后续持续扩充对各类模型及模型 A
 
 ## 快速上手
 
-### 1. 环境配置
-
-+ 首先，确保你的机器安装了 Python 3.8 - 3.11 (我们强烈推荐使用 Python3.11)。
-
-```
-$ python --version
-Python 3.11.7
-```
-
 接着，创建一个虚拟环境，并在虚拟环境内安装项目的依赖
 
 ```shell
@@ -68,8 +59,7 @@ Python 3.11.7
 $ git clone https://github.com/Tian789Gong/-LCchat.git
 
 # 进入目录
-$ cd Langchain-Chatchat
-
+$ cd ./-LCchat
 # 安装全部依赖
 $ pip install -r requirements.txt 
 $ pip install -r requirements_api.txt
