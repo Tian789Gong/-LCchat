@@ -65,7 +65,7 @@ Python 3.11.7
 ```shell
 
 # 拉取仓库
-$ git clone https://github.com/chatchat-space/Langchain-Chatchat.git
+$ git clone https://github.com/Tian789Gong/-LCchat.git
 
 # 进入目录
 $ cd Langchain-Chatchat
