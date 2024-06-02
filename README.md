@@ -80,6 +80,8 @@ $ pip install -r requirements_webui.txt
 ，然后运行
 
 ```Shell
+$ sudo apt-get update
+$ sudo apt-get install git-lfs
 $ git lfs install
 $ git clone https://huggingface.co/THUDM/chatglm3-6b
 $ git clone https://huggingface.co/BAAI/bge-large-zh
