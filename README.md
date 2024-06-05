@@ -56,10 +56,11 @@ OpenAI GPT API 的调用，并将在后续持续扩充对各类模型及模型 A
 ```shell
 
 # 拉取仓库
-$ git clone https://github.com/Tian789Gong/-LCchat.git
+$ git clone https://github.com/Tian789Gong/orange-Langchain.git
+
 
 # 进入目录
-$ cd ./-LCchat
+$ cd orange-Langchain
 # 安装全部依赖
 $ pip install -r requirements.txt 
 $ pip install -r requirements_api.txt
@@ -83,8 +84,8 @@ $ pip install -r requirements_webui.txt
 $ sudo apt-get update
 $ sudo apt-get install git-lfs
 $ git lfs install
-$ git clone https://huggingface.co/THUDM/chatglm3-6b
-$ git clone https://huggingface.co/BAAI/bge-large-zh
+$ git clone https://www.modelscope.cn/ZhipuAI/chatglm3-6b.git
+$ git clone https://www.modelscope.cn/AI-ModelScope/bge-large-zh.git
 ```
 
 ### 3. 初始化知识库和配置文件
