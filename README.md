@@ -85,7 +85,11 @@ $ sudo apt-get update
 $ sudo apt-get install git-lfs
 $ git lfs install
 $ git clone https://www.modelscope.cn/ZhipuAI/chatglm3-6b.git
+$ cd chatglm3-6b
+$ git lfs pull
 $ git clone https://www.modelscope.cn/AI-ModelScope/bge-large-zh.git
+$ cd bge-large-zh
+$ git lfs pull
 ```
 
 ### 3. 初始化知识库和配置文件
