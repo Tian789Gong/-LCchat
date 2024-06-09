@@ -87,18 +87,27 @@ $ git lfs install
 $ git clone https://www.modelscope.cn/ZhipuAI/chatglm3-6b.git
 $ cd chatglm3-6b
 $ git lfs pull
+$ ls -lh .git/lfs/objects
+$ git lfs ls-files
+$ cd ..
 $ git clone https://www.modelscope.cn/AI-ModelScope/bge-large-zh.git
 $ cd bge-large-zh
 $ git lfs pull
+$ ls -lh .git/lfs/objects
+$ git lfs ls-files
 ```
+
+$ pip install -U huggingface_hub
+$ export HF_ENDPOINT=https://hf-mirror.com
+$ huggingface-cli download --resume-download BAAI/bge-large-zh-v1.5 --local-dir bge-large-zh
 
 ### 3. 初始化知识库和配置文件
 
 按照下列方式初始化自己的知识库和简单的复制配置文件
 
 ```shell
-$ python copy_config_example.py
-$ python init_database.py --recreate-vs
+$ python3 copy_config_example.py
+$ python3 init_database.py --recreate-vs
  ```
 
 ### 4. 一键启动
