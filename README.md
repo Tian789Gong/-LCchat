@@ -115,7 +115,7 @@ $ python3 init_database.py --recreate-vs
 按照以下命令启动项目
 
 ```shell
-$ python startup.py -a
+$ python3 startup.py -a
 ```
 
 ### 5. 启动界面示例
